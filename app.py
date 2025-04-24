@@ -20,8 +20,9 @@ def verify_password(username, password):
         return username
 
 # Define the download folder and gallery folder for Android
+# Define the download folder and gallery folder for Android
 DOWNLOAD_FOLDER = 'downloads'
-GALLERY_FOLDER = '/storage/emulated/0/Download/Web downloader/'  # Android gallery path
+GALLERY_FOLDER = '/storage/emulated/0/Download/'  # Android download folder
 os.makedirs(DOWNLOAD_FOLDER, exist_ok=True)
 os.makedirs(GALLERY_FOLDER, exist_ok=True)
 
